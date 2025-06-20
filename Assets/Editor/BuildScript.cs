@@ -108,7 +108,7 @@ namespace DemoGame.Editor
         {
             List<string> sceneList = new List<string>()
             {
-                "Assets/Scene/SampleScene.unity"
+                "Assets/Scenes/SampleScene.unity"
             };
             return sceneList.ToArray();
         }
