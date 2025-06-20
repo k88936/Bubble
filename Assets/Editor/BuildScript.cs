@@ -9,13 +9,12 @@ namespace DemoGame.Editor
     public class BuildScript : MonoBehaviour
     {
         private const string DEBUG_FLAG = "[Game Builder]";
-
         private const string INVALID_FLAG = "INVALID";
         private const string ApplicationName = "DemoGame";
         private const string OutputBasePath = "Build";
         private const string OutputPath_Android = "Android";
         private const string OutputPath_Windows = "Windows";
-
+        
         [MenuItem("Build/Build Android APK (IL2CPP)")]
         public static void PerformBuild_AndroidAPK()
         {
